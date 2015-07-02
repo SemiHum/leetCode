@@ -12,6 +12,9 @@ package com.avalontm.leetcode._198HouseRobber;
  * Created by jiang_s on 2015/7/2.
  */
 public class Solution {
+    /**
+     * Recursive Version
+     */
     public int rob(int[] nums) {
         int[] cache = new int[nums.length];
         int cacheSize = cache.length;
