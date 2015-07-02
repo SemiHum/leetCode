@@ -37,9 +37,4 @@ public class Solution {
         }
         return new String(chars, index, maxCharSize - index);
     }
-
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.print(solution.convertToTitle(27));
-    }
 }
